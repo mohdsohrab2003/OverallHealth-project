@@ -1,0 +1,335 @@
+:root{
+    --green:green;
+    --black:#130f40;
+    --light:#666;
+    --box-shadow:0.5rem 1.2rem rgba(0,0,0,.1);
+    --border: 0.2rem solid rgba(0,0,0.1);
+    --outline:.1rem solid rgb(219, 222, 222);
+}
+/* MAIN CONTENT START */
+.main-content{
+    padding-top: 11rem;
+    padding-bottom: 4rem;
+    display: flex;
+}
+.main-content .box-container1{
+    background:#fff;
+    width: 76%;
+    margin-left: -7rem;
+    border-radius: 6rem;
+    /* border: 2px solid red; */
+}
+.main-content .box-container1 .content .icon{
+    border: 0px solid blue;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    padding-bottom: 1.5rem;
+    margin: 1rem ;
+    padding-left: 7rem;
+}
+.main-content .box-container1 .content .icon a{
+    font-size: 2rem;
+    color: var(--green);
+    justify-content: space-between;
+}
+.main-content .box-container1 .content .icon a:hover{
+    color: var(--black);
+}
+
+.main-content .box-container1 .content h1{
+        font-size: 4rem;
+        color: var(--black);
+        justify-content: center;
+        text-align: center;
+        padding: 3rem 4rem;
+        line-height: 5rem;
+
+}
+.main-content .box-container1 .content img{
+    width: 80%;
+    height: 35rem;
+    margin: 3rem 7rem ;
+    border-radius: 5rem;
+    box-shadow: var(--box-shadow);
+}
+.main-content .box-container1 .content img:hover{
+    width: 84%;
+    height: 38rem;
+    box-shadow: 1px 1px 10px 3px var(--green);
+}          
+
+.main-content .box-container1 .content h2{
+    font-size: 3rem;
+    color: var(--black);
+    justify-content: center;
+    /* text-align: ; */
+    padding: 2rem 4.5rem;
+    line-height: 1;
+}
+.main-content .box-container1 .content p{
+    font-size:2.2rem ;
+    padding: 1rem 5rem;
+    margin-top: -1.5rem;
+    justify-content: center;
+}
+.main-content .box-container1 .content .related-content h3{
+    font-size: 2.5rem;
+    padding-left: 5rem;
+    color: var(--green);
+}
+.main-content .box-container1 .content ul {
+    font-size: 2rem;
+    padding:1rem 5rem ;
+    padding-left: 6rem;
+}
+.main-content .box-container1 .content .related-content h2{
+    font-size: 2.5rem;
+}
+.main-content .box-container1 .content .related-content h2:hover{
+    color: var(--green);
+    font-size: 3rem;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.main-content .box-container2 {
+   
+    margin-left: 5rem;
+    width: 36%;
+    background: #fff;
+    border-radius: 5rem;
+    box-shadow: var(--box-shadow);
+    margin-right: -6rem;
+
+}
+.main-content .box-container2:hover{
+    box-shadow: 1px 1px 8px 3px rgb(75, 207, 225);
+}
+.main-content .box-container2 .content1{
+    text-align: center;
+    
+}
+.main-content .box-container2 .content1 .popular-blog .heading a h2 span{
+    font-size: 3rem;
+    background:rgb(75, 207, 225) ;
+}
+
+.main-content .box-container2 .content1 .popular-blog a h4{
+    font-size: 1.8rem;
+    padding: 1rem 2.5rem;
+    text-align: center;
+    color: var(--black);
+    line-height: 1.4;
+
+}
+.main-content .box-container2 .content1 .popular-blog a h4:hover{
+    color: var(--green);
+    text-decoration: underline;
+}
+.main-content .box-container2 .content1 .popular-blog .p-btn{
+    margin-top:  1rem ;
+    padding: .8rem;
+    display: inline-block;
+    font-size: 1.7rem;
+    border:.21rem solid var(--black) ;
+    border-radius: .5rem;
+    cursor: pointer;
+    background: none;
+
+}
+.main-content .box-container2 .content1 .popular-blog .p-btn:hover{
+    background: var(--green);
+    color: #fff;
+}
+
+/* content 2 in container 2 */
+
+.main-content .box-container2 .content2{
+    text-align: center;
+    margin-top: 60rem;
+    
+}
+.main-content .box-container2 .content2 .trending-blog .heading a h2 span{
+    font-size: 3rem;
+    background:rgb(75, 207, 225) ;
+}
+
+.main-content .box-container2 .content2 .trending-blog a h4{
+    font-size: 1.8rem;
+    padding: 1rem 2.5rem;
+    text-align: center;
+    color: var(--black);
+    line-height: 1.4;
+
+}
+
+.main-content .box-container2 .content2 .trending-blog a h4:hover{
+    color: var(--green);
+    text-decoration: underline;
+}
+.main-content .box-container2 .content2 .trending-blog .p-btn{
+    margin-top:  1rem ;
+    padding: .8rem;
+    display: inline-block;
+    font-size: 1.7rem;
+    border:.21rem solid var(--black) ;
+    border-radius: .5rem;
+    cursor: pointer;
+    background: none;
+
+}
+.main-content .box-container2 .content2 .trending-blog .p-btn:hover{
+    background: var(--green);
+    color: #fff;
+}
+
+
+/* MAIN CONTENT END */
+
+
+
+/* RELATED BLOG START */
+.related-blog{
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+}
+.related-blog .box-container{
+    border: 0px solid;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+    gap: 1.3rem;
+}
+.related-blog .box-container .box{
+    overflow: hidden;
+    border-radius: 0.7rem;
+    box-shadow: var(--box-shadow);
+    background: #fff;
+}
+.related-blog .box-container .box:hover{
+    box-shadow: 1px 1px 10px 4px var(--green);
+}
+.related-blog .box-container .box img{
+    height: 18rem;
+    width: 100%;
+    object-fit: cover;
+}
+.related-blog .box-container .box .content{
+    padding: .5rem;
+    margin-top: -.7rem;
+}
+.related-blog .box-container .box .content .icon{
+    border: 0px solid blue;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    padding-bottom: 1.2rem;
+    margin: 1rem;
+    border-bottom: var(--border);
+}
+.related-blog .box-container .box .content .icon a{
+    font-size: 1rem;
+    color: var(--light);
+}
+.related-blog .box-container .box .content .icon a:hover{
+    color: var(--black);
+}
+.related-blog .box-container .box .content .icon a i{
+    color: var(--green);
+    padding-right:1rem ;
+}
+.related-blog .box-container .box .content h3{
+    line-height: 1.3;
+    color: var(--black);
+    padding: .5rem 0;
+    font-size: 1.7rem;
+}
+.related-blog .heading{
+    font-size: 2rem;
+}
+
+
+/* RELATED BLOG END */
+
+
+
+
+
+
+
+/* ====MEDIA QUERIES START ======= */
+@media (max-width:991px){
+    
+}
+@media (max-width:768px){
+    .main-content .box-container2{
+        margin-right: -6rem;
+    }
+
+    .main-content .box-container1 .content img{
+        margin: 3rem 5rem ;
+    }
+    .main-content .box-container2 .content1 .popular-blog{
+        
+        font-size: 1rem;
+        margin-left: -1.5rem;
+    }
+
+}
+@media (max-width:768px){
+    .main-content .box-container2 .content1 .popular-blog .heading a h2 span{
+        font-size: 1.3rem;
+    }
+    .main-content .box-container2 .content1 h4{
+        font-size: 1rem;
+    }
+
+    .main-content .box-container2 .content2 .trending-blog .heading a h2 span{
+        font-size: 1.3rem;
+    }
+    .main-content .box-container2 .content2 h4{
+        font-size: 1rem;
+    }
+}
+@media (max-width:460px){
+    .main-content .box-container1{
+        width: 100%;
+        margin-left:3rem ;
+        margin-right: 1rem;
+
+    }
+    .main-content .box-container1 img{
+        margin-right: -4rem;
+        
+
+    }
+    /* .main-content .box-container1 img:hover {
+        margin-left: .5rem;
+        margin-right: -.3rem;
+        
+    } */
+    .main-content .box-container2 {
+        display: none;
+    }
+}
+
+@media (max-width:390px){
+    .main-content .box-container2{
+        display: none;
+    }
+    .main-content .box-container1{
+        width: 100%;
+        margin: 0rem 0rem;
+    }
+}
+/* ====MEDIA QUERIES END ======= */
